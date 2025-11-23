@@ -1,0 +1,45 @@
+.stApp {
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+
+div[data-testid="stMetricValue"] {
+    font-size: 28px;
+    color: #00FFCC !important;
+    font-weight: 700;
+}
+
+.stMetric {
+    background-color: #1A1C24;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+button[kind="primary"] {
+    background-color: #FF4B4B !important;
+    color: white !important;
+    border: none !important;
+}
+
+button[kind="secondary"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid #ccc !important;
+}
+
+button[kind="secondary"] * {
+    color: #000000 !important;
+}
+
+td:nth-child(4) {
+    font-weight: bold;
+    color: #FF4B4B;
+}
+
+.streamlit-expanderHeader {
+    background-color: #262730;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
